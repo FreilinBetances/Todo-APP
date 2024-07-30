@@ -1,4 +1,3 @@
-Aquí tienes un README.md creado para tu proyecto "Todo-App". He incluido secciones para la descripción, características, instalación, uso y capturas de pantalla para mostrar el funcionamiento de la aplicación.
 
 ```markdown
 # Todo-App

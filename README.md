@@ -1,77 +1,106 @@
+Aquí tienes un README.md creado para tu proyecto "Todo-App". He incluido secciones para la descripción, características, instalación, uso y capturas de pantalla para mostrar el funcionamiento de la aplicación.
+
 ```markdown
-# Getting Started with Create React App
+# Todo-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Todo-App es una aplicación de lista de tareas creada con React. Te permite agregar, completar y eliminar tareas de manera sencilla y eficiente.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Agregar tareas
+- Marcar tareas como completadas
+- Filtrar tareas (todas, activas, completadas)
+- Interfaz de usuario intuitiva y amigable
+
+## Capturas de Pantalla
+
+### Página Principal
+
+![Página Principal](https://github.com/FreilinBetances/Todo-APP/blob/main/todo-app%20falta%20por%20realizar.PNG)
+
+## Instalación
+
+Sigue estos pasos para instalar y ejecutar la aplicación en tu entorno local.
+
+1. Clona el repositorio
+
+```bash
+git clone https://github.com/FreilinBetances/Todo-APP.git
+```
+
+2. Navega al directorio del proyecto
+
+```bash
+cd Todo-APP
+```
+
+3. Instala las dependencias
+
+```bash
+npm install
+```
+
+## Uso
+
+Para iniciar la aplicación en modo de desarrollo, ejecuta el siguiente comando:
+
+```bash
+npm start
+```
+
+Esto abrirá la aplicación en tu navegador predeterminado en la dirección [http://localhost:3000](http://localhost:3000).
+
+## Scripts Disponibles
+
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Inicia la aplicación en modo de desarrollo.\
+Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lanza el corredor de pruebas en modo interactivo de vigilancia.\
+Consulta la sección sobre [pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para más información.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construye la aplicación para producción en la carpeta `build`.\
+Empaqueta correctamente React en modo de producción y optimiza la construcción para obtener el mejor rendimiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La construcción está minificada y los nombres de archivos incluyen los hashes.\
+¡Tu aplicación está lista para ser desplegada!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Consulta la sección sobre [despliegue](https://facebook.github.io/create-react-app/docs/deployment) para más información.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: esta es una operación unidireccional. Una vez que ejecutes `eject`, ¡no podrás volver atrás!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si no estás satisfecho con la herramienta de construcción y las opciones de configuración, puedes `eject` en cualquier momento. Este comando eliminará la única dependencia de construcción de tu proyecto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+En su lugar, copiará todos los archivos de configuración y las dependencias transitivas (Webpack, Babel, ESLint, etc.) directamente en tu proyecto para que tengas control total sobre ellos. Todos los comandos excepto `eject` seguirán funcionando, pero apuntarán a los scripts copiados para que puedas ajustarlos. En este punto, estás por tu cuenta.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Configuración Avanzada
 
-## Learn More
+Puedes aprender más en la [documentación de Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para aprender React, consulta la [documentación de React](https://reactjs.org/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribución
 
-### Code Splitting
+Las contribuciones son bienvenidas. Por favor, abre un "issue" para discutir cualquier cambio importante antes de enviarlos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Autor
 
-### Analyzing the Bundle Size
+Freilin Betances
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Licencia
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Author
-
-Freilin Betances\
-[GitHub Profile](https://github.com/FreilinBetances/Todo-APP/blob/main/README.md)
+Este proyecto está bajo la licencia MIT.
 ```
+
+
+Este README.md proporciona una descripción clara del proyecto, sus características, cómo instalarlo, usarlo y contribuir. Además, incluye una captura de pantalla que has proporcionado para mostrar el funcionamiento de la aplicación. 
+
